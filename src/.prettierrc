@@ -1,0 +1,30 @@
+{
+	"plugins": [
+		"@trivago/prettier-plugin-sort-imports",
+		"prettier-plugin-tailwindcss"
+	],
+	"printWidth": 80,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"trailingComma": "all",
+	"bracketSpacing": false,
+	"arrowParens": "always",
+	"importOrder": [
+		"^react$",
+		"^next",
+		"^[a-z]",
+		"^@",
+		"^~",
+		"^\\.\\.(?!/?$)",
+		"^\\.\\./?$",
+		"^\\./(?=.*/)(?!/?$)",
+		"^\\.(?!/?$)",
+		"^\\./?$",
+		"^.+\\.s?css$",
+		"^\\u0000"
+	],
+	"importOrderSeparation": false,
+	"importOrderSortSpecifiers": false
+}
