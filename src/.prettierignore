@@ -29,3 +29,5 @@ yarn.lock
 *.min.js
 *.map
 .cache/
+
+commitlint.config.js
