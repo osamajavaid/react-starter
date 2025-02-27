@@ -26,3 +26,6 @@ yarn-error.log*
 *.min.js
 *.map
 .cache/
+
+
+commitlint.config.js
