@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+@theme {
+	/* font variables */
+	--font-cairo: "cairo", sans-serif;
+	
+	/* color variables */
+	--color-primary: #16205b;
+	--color-secondary: #9ba3d2;
+	--color-sky-blue: #0193ff;
+	--color-yellow: #edb900;
+	--color-light-gray: #a4a7ae;
+	--color-mid-gray: #535862;
+	--color-dark-gray: #4c4f4d;
+}
+
+/* ====================== Font Faces ======================= */
+
+/* cairo */
+@font-face {
+	font-family: "cairo";
+	src: url("../assets/fonts/Cairo-variable.ttf") format("opentype");
+	font-style: normal;
+}
+
+/* ====================== Common Tailwindcss Classes ======================= */
+@layer utilities {
+	.wrapper {
+		@apply w-full px-5 md:px-8 lg:mx-auto lg:px-14 xl:px-20;
+	}
+	.wrapper-r {
+		@apply w-full pr-5 md:pr-8 lg:mx-auto lg:pr-14 xl:pr-20;
+	}
+	.wrapper-l {
+		@apply w-full pl-5 md:pl-8 lg:mx-auto lg:pl-14 xl:pl-20;
+	}
+}
+html {
+	scroll-behavior: smooth;
+}

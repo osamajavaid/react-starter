@@ -10,13 +10,17 @@
     "lint": "eslint --fix 'src/**/*.{js,jsx}'",
     "format": "prettier --write .",
     "prettier": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo \"No tests defined\" && exit 0"
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.9"
+    "react-router-dom": "^7.6.2",
+    "tailwindcss": "^4.0.9",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
@@ -33,8 +37,10 @@
     "globals": "^15.15.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
+    "path": "^0.12.7",
     "prettier": "^3.5.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }

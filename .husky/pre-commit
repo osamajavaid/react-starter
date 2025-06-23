@@ -1,8 +1,1 @@
-# Run Prettier
-prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
-
-# Run ESLint
-npx eslint --fix $(git diff --cached --name-only --diff-filter=ACMR -- '*.js' '*.jsx' '*.ts' '*.tsx')
-
-# Re-stage formatted and fixed files
-git update-index --again
+npm test

@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.prettierPath": "./node_modules/prettier",
+    "prettier.requireConfig": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "monaco",
+    "terminal.integrated.fontFamily": "monaco",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "[markdown]": {
+      "editor.wordWrap": "on"
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false
+}
