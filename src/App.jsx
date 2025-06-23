@@ -1,10 +1,10 @@
-import { Suspense } from "react";
-import { Route, Routes } from "react-router-dom";
+import {Suspense} from "react";
+import {Route, Routes} from "react-router-dom";
 import ScrollToTop from "./components/common/scroll-to-top";
-import { routes } from "./utils/routes";
+import PrimaryLayout from "./layouts/primary-layout";
 import NotFound from "./pages/not-found";
-import { ROUTES } from "./utils/constants";
-import PrimaryLayout from "@layouts/primary-layout";
+import {ROUTES} from "./utils/constants";
+import {routes} from "./utils/routes";
 
 export default function App() {
 	const isAuthenticated = true;
