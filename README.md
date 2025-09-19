@@ -1,11 +1,9 @@
-Got it. I won’t change your README text, just reformat the commands so they appear in proper code editor blocks instead of being escaped. Here’s the fixed version with correct code block syntax:
-
-```markdown
 # React Starter Project
 
 A modern React application starter template built with Vite, featuring a comprehensive development setup and best practices.
 
 ## Features
+```markdown
 
 - ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 - ⚛️ [React 19](https://react.dev/) - JavaScript library for building user interfaces
@@ -20,8 +18,8 @@ A modern React application starter template built with Vite, featuring a compreh
 
 ````
 
-````markdown
 ## Project Structure
+````markdown
 
 ```plaintext
 src/
@@ -40,17 +38,8 @@ src/
 └── style/           # Global styles and Tailwind configuration
 ````
 
-```
-
-✅ The key fix is using `plaintext` (or `bash`) right after the opening triple backticks.  
-This way the indentation, pipes, and comments won’t get messed up in different Markdown renderers.  
-
-Do you want me to **apply this fix to your whole README.md** and give you a final cleaned version?
-```
-
-
 ## Getting Started
-
+```
 ### Prerequisites
 
 - Node.js (version 16 or higher)
@@ -154,7 +143,3 @@ feat(auth): add login functionality
 * `npm run format`: Format code using Prettier
 * `npm run prettier`: Check code formatting
 
-```
-
-Do you also want me to apply consistent **syntax highlighting** (like `bash` for shell commands, `json` if configs appear later) throughout, or keep it minimal?
-```
