@@ -4,11 +4,11 @@
       "paths": {
         "@/*": ["src/*"],
         "@components/*": ["src/components/*"],
-        "@utils/*": ["src/utils/*"],
+        "@lib/*": ["src/lib/*"],
         "@pages/*": ["src/pages/*"],
         "@graphql/*": ["src/graphql/*"],
         "@store/*": ["src/store/*"],
-        "@layout/*": ["src/layout/*"],
+        "@layouts/*": ["src/layouts/*"],
         "@style/*": ["src/style/*"],
         "@hooks/*": ["src/hooks/*"],
         "@context/*": ["src/context/*"],

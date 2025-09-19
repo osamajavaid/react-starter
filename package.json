@@ -12,7 +12,6 @@
     "prettier": "prettier --check .",
     "prepare": "husky",
     "test": "echo \"No tests defined\" && exit 0"
-
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
