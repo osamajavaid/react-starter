@@ -1,3 +1,6 @@
+Got it. I won’t change your README text, just reformat the commands so they appear in proper code editor blocks instead of being escaped. Here’s the fixed version with correct code block syntax:
+
+```markdown
 # React Starter Project
 
 A modern React application starter template built with Vite, featuring a comprehensive development setup and best practices.
@@ -14,9 +17,13 @@ A modern React application starter template built with Vite, featuring a compreh
 - 🐶 [Husky](https://typicode.github.io/husky/) - Git hooks
 - 📝 [CommitLint](https://commitlint.js.org/) - Lint commit messages
 
+
+````
+
+````markdown
 ## Project Structure
 
-```
+```plaintext
 src/
 ├── assets/          # Static assets (images, fonts, etc.)
 ├── components/      # Reusable components
@@ -30,8 +37,17 @@ src/
 │   └── constants/   # Constant functions only
 ├── pages/           # Page components
 ├── store/           # Zustand store configurations
-├── style/           # Global styles and Tailwind configuration
+└── style/           # Global styles and Tailwind configuration
+````
+
 ```
+
+✅ The key fix is using `plaintext` (or `bash`) right after the opening triple backticks.  
+This way the indentation, pipes, and comments won’t get messed up in different Markdown renderers.  
+
+Do you want me to **apply this fix to your whole README.md** and give you a final cleaned version?
+```
+
 
 ## Getting Started
 
@@ -43,42 +59,46 @@ src/
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone [repository-url]
 cd react-starter
-\`\`\`
+````
 
 2. Install dependencies:
-\`\`\`bash
+
+```bash
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 ### Development
 
 Start the development server:
-\`\`\`bash
+
+```bash
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 ### Building for Production
 
 Build the application:
-\`\`\`bash
+
+```bash
 npm run build
 # or
 yarn build
-\`\`\`
+```
 
 Preview the production build:
-\`\`\`bash
+
+```bash
 npm run preview
 # or
 yarn preview
-\`\`\`
+```
 
 ## Git Hooks and Commit Convention
 
@@ -86,48 +106,55 @@ This project uses Husky to enforce code quality and commit message conventions.
 
 ### Setting up Husky
 
-Husky is automatically installed and configured when you run \`npm install\`. It sets up the following hooks:
+Husky is automatically installed and configured when you run `npm install`. It sets up the following hooks:
 
-- Pre-commit: Runs linting and formatting checks
-- Commit-msg: Validates commit messages follow conventional commits
+* Pre-commit: Runs linting and formatting checks
+* Commit-msg: Validates commit messages follow conventional commits
 
 Please initialze the husky using this command:
-\`\`\`bash
-npx husky init
-\`\`\`
 
+```bash
+npx husky init
+```
 
 ### Commit Message Convention
 
 We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification. Commit messages should be structured as follows:
 
-\`\`\`
+```
 <type>[optional scope]: <description>
 
 [optional body]
 
 [optional footer(s)]
-\`\`\`
+```
 
 Types include:
-- feat: New feature
-- fix: Bug fix
-- docs: Documentation changes
-- style: Code style changes (formatting, etc.)
-- refactor: Code refactoring
-- test: Adding or modifying tests
-- chore: Maintenance tasks
+
+* feat: New feature
+* fix: Bug fix
+* docs: Documentation changes
+* style: Code style changes (formatting, etc.)
+* refactor: Code refactoring
+* test: Adding or modifying tests
+* chore: Maintenance tasks
 
 Example:
-\`\`\`
+
+```
 feat(auth): add login functionality
-\`\`\`
+```
 
 ## Available Scripts
 
-- \`npm run dev\`: Start development server
-- \`npm run build\`: Build for production
-- \`npm run preview\`: Preview production build
-- \`npm run lint\`: Lint code using ESLint
-- \`npm run format\`: Format code using Prettier
-- \`npm run prettier\`: Check code formatting
+* `npm run dev`: Start development server
+* `npm run build`: Build for production
+* `npm run preview`: Preview production build
+* `npm run lint`: Lint code using ESLint
+* `npm run format`: Format code using Prettier
+* `npm run prettier`: Check code formatting
+
+```
+
+Do you also want me to apply consistent **syntax highlighting** (like `bash` for shell commands, `json` if configs appear later) throughout, or keep it minimal?
+```
